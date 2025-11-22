@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+.font-serif {
+  font-family: 'Cinzel', serif;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+@keyframes unfurl {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-unfurl {
+  animation: unfurl 0.8s ease-out;
+}
+
+.transition-left {
+  transition: left 5s linear;
+}
+
+.hidden {
+  display: none !important;
+}
